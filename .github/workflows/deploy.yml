@@ -32,7 +32,7 @@ jobs:
         run: docker build -t my-app .
 
       - name: Tag Image
-        run: docker tag my-app:latest ${{ steps.login-ecr.outputs.registry }}/shoaib:latest
+        run: docker tag my-app:latest ${{ steps.login-ecr.outputs.registry }}/shoaib-ecr:latest
 
       - name: Push Image
-        run: docker push ${{ steps.login-ecr.outputs.registry }}/shoaib:latest
+        run: docker push ${{ steps.login-ecr.outputs.registry }}/shoaib-ecr:latest

@@ -7,7 +7,7 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  ECR_REPOSITORY: shoaib
+  ECR_REPOSITORY: shoaib-ecr
 
 jobs:
   push-image:

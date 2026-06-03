@@ -8,9 +8,9 @@ on:
 env:
   AWS_REGION: us-east-1
   ECR_REPOSITORY: shoaib-ecr
-  ECS_SERVICE: shoaib-task-service-89hxfh0h
-  ECS_CLUSTER: myCluster
-  ECS_TASK_DEFINITION: shoaib-task
+  ECS_SERVICE: Shoaib-task-service-t8jnaq3q
+  ECS_CLUSTER: Shoaib-ecs
+  ECS_TASK_DEFINITION: Shoaib-task
   CONTAINER_NAME: Shoaib-Container
 
 jobs:
